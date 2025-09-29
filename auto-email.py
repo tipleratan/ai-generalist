@@ -107,8 +107,8 @@ if __name__ == "__main__":
 
     # Send email
     send_email(
-        sender="test@gmail.com",
-        to="test@gmail.com",
+        sender="tipleratan@gmail.com",
+        to="tipleratan@gmail.com",
         subject=f"Candidate Profile: {profile[0].get('name', 'Unknown')}",
         body=body
     )
